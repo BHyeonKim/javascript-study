@@ -1,0 +1,31 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BHyeonKim/javascript_folkify.git"
+  },
+  "author": "Bo Hyoen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BHyeonKim/javascript_folkify/issues"
+  },
+  "homepage": "https://github.com/BHyeonKim/javascript_folkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0",
+    "sass": "^1.41.1"
+  },
+  "dependencies": {
+    "core-js": "^3.18.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
